@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Web Development Assignments</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap" rel="stylesheet" />
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    body {
+      background: linear-gradient(135deg, #89f7fe, #66a6ff);
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 30px;
+    }
+
+    .container {
+      background: rgba(173, 216, 230, 0.1);
+      border-radius: 20px;
+      padding: 40px;
+      width: 90%;
+      max-width: 720px;
+      backdrop-filter: blur(16px);
+      box-shadow: 0 10px 35px rgba(0, 0, 0, 0.15);
+      border: 1px solid rgba(173, 216, 230, 0.3);
+      text-align: center;
+      color: #fff;
+    }
+
+    .title {
+      font-size: 2.8rem;
+      font-weight: 800;
+      margin-bottom: 10px;
+      color: #ffffff;
+      text-shadow: 0 2px 10px rgba(0,0,0,0.2);
+    }
+
+    .subtitle {
+      font-size: 1.1rem;
+      color: #e0f7fa;
+      margin-bottom: 30px;
+    }
+
+    a {
+      text-decoration: none;
+    }
+
+    .card {
+      background: rgba(135, 206, 250, 0.2);
+      border: 1px solid rgba(135, 206, 250, 0.3);
+      border-radius: 16px;
+      padding: 20px 25px;
+      margin: 15px 0;
+      display: flex;
+      align-items: center;
+      gap: 15px;
+      transition: all 0.3s ease;
+      box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+    }
+
+    .card:hover {
+      transform: translateY(-6px);
+      background: rgba(135, 206, 250, 0.3);
+      box-shadow: 0 12px 30px rgba(0, 0, 0, 0.2);
+    }
+
+    .icon {
+      font-size: 2rem;
+    }
+
+    .html { color: #4fc3f7; }
+    .css { color: #29b6f6; }
+    .xml { color: #03a9f4; }
+
+    .label {
+      font-size: 1.2rem;
+      font-weight: 600;
+      color: #ffffff;
+      text-shadow: 0 1px 5px rgba(0,0,0,0.3);
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="title">Web Development</div>
+    <div class="subtitle">Name: Priyanka Shahaji Kolekar<br> Roll No.: 59</div>
+
+    <a href="HTML/index.html" target="_blank">
+      <div class="card">
+        <span class="icon html">🌐</span>
+        <span class="label">HTML Assignment</span>
+      </div>
+    </a>
+
+    <a href="HTML CSS/index.html" target="_blank">
+      <div class="card">
+        <span class="icon css">🎨</span>
+        <span class="label">CSS Assignment</span>
+      </div>
+    </a>
+
+    <a href="XML/index.html" target="_blank">
+      <div class="card">
+        <span class="icon xml">🔧</span>
+        <span class="label">XML Assignment</span>
+      </div>
+    </a>
+  </div>
+</body>
+</html>
